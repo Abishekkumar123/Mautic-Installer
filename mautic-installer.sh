@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #Variables
-pass='MauticDBPa$$123'
-db_name='MauticAutomation'
-db_user='MauticUser'
+pass='Ayushcha12@'
+db_name='mautic'
+db_user='mautic'
 web_root='/var/www/mautic'
-domain='example.com'
-email='changethis@example.com'
+domain='smder.smtp20.tk'
+email='spectator@ghast.com'
 timezone='America/New_York'
 
 ### Set default parameters
