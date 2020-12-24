@@ -2,11 +2,11 @@
 
 #Variables
 pass='Ayushcha12@'
-db_name='mautic'
-db_user='mautic'
+db_name='Mautic'
+db_user='Mautic'
 web_root='/var/www/mautic'
-domain='smder.smtp20.tk'
-email='spectator@ghast.com'
+domain='smder.smtpsender.tk'
+email='changethis@smder.smtpsender.tk'
 timezone='America/New_York'
 
 ### Set default parameters
