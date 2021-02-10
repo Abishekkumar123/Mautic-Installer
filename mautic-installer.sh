@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Variables
-pass='Ayushcha12@'
-db_name='Mautic'
-db_user='Mautic'
+pass='f9a3106403a7f5b3778275a62b9cb01824c7ed154e635962f818bd129507807e'
+db_name='d5jgt3pgjr130q'
+db_user='paxqtwnubcpeep'
 web_root='/var/www/mautic'
 domain='smder.smtpsender.tk'
 email='changethis@smder.smtpsender.tk'
@@ -59,7 +59,7 @@ done
 
 mysql -e "DROP DATABASE IF EXISTS ${db_name};"
 mysql -e "CREATE DATABASE ${db_name} /*\!40100 DEFAULT CHARACTER SET utf8 */;"
-mysql -e "DROP USER IF EXISTS ${db_user}@localhost;"
+mysql -e "DROP USER IF EXISTS ${ }@localhost;"
 mysql -e "CREATE USER ${db_user}@localhost IDENTIFIED BY '${pass}';"
 mysql -e "GRANT ALL PRIVILEGES ON ${db_name}.* TO '${db_user}'@'localhost';"
 mysql -e "FLUSH PRIVILEGES;"
